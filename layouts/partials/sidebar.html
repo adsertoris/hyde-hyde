@@ -4,7 +4,7 @@
 			<a href="{{ .Site.BaseURL }}"><h1 class="brand">{{ .Site.Title }}</h1></a>
 			{{ with .Site.Params.authorimage }} <img src="{{.}}" alt="Author Image" class="img-circle headshot center"> {{ end }}
 			<p class="lead">
-				{{ with .Site.Params.description }} {{.}} {{ else }} Your site's description {{end}}
+				{{ with .Site.Params.description }} {{.}} {{ else }} {{end}}
 			</p>
 		</div>
 		{{ partial "sidebar_menu.html" . }}
@@ -12,8 +12,8 @@
 		{{ partial "sidebar_social.html" . }}
         </p>
 		<p class="copyright">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}} {{.Site.Params.author}}.
-        <a href="https://creativecommons.org/licenses/by/4.0">Some Rights Reserved</a>.<br/>Built with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.{{end}}
-        </p>
+    	<a href="https://creativecommons.org/licenses/by/4.0">Some Rights Reserved</a>.<br/>Built with <a href="https://gohugo.io/">Hugo</a>.{{end}}
+    </p>
 	</div>
 	<div>
 	</div>
