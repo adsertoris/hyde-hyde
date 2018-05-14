@@ -14,8 +14,8 @@ body
 
 .headshot
 {
-    width: 115px;
-    height: 115px;
+    width: 200px;
+    height: 200px;
 }
 
 .brand
@@ -46,7 +46,7 @@ pre
 
 .hljs {
     white-space: pre;
-    
+
     overflow-x: auto; /* no line wrapping */
 }
 
@@ -64,7 +64,7 @@ code {
     font-family: 'Roboto Mono', monospace;
     font-size: 90%;
 }
-.copyright, 
+.copyright,
 .poweredby
 {
     font-size: 13px;
